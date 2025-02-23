@@ -1,0 +1,79 @@
+
+
+body {
+   background-color: beige; 
+   border-style: solid ;
+   border-width: 2px;
+   border-radius: 5px;
+   padding: 1px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align:center;
+ }
+
+ h2{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color:teal;
+ }
+
+ 
+ ul {
+   background: #6B8E23;
+ }
+
+ ol {
+   background: #6B8E23;
+ }
+
+
+ ol.a {
+    border-style: solid;
+ }
+
+ ul.b {
+    list-style-type:circle;
+    border-style: solid;
+ }
+
+ ul.c {
+   list-style-type:circle;
+   border-style: solid;
+}
+
+ ol.d {
+   border-style: solid;
+} 
+
+ ul li{
+   background: #ccee5b;
+   margin: 3px;
+ }
+
+
+ ol li{
+   background: #ccee5b;
+   margin: 3px;
+ }
+
+ 
+ #para1 {
+    color: olivedrab;
+   }    
+
+ #para2 {
+    color: teal;
+ }
+
+ a{
+    color: hotpink;
+ }
+
+ p.a{
+   background-color: forestgreen;
+   color: white;
+}
+
