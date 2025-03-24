@@ -15,3 +15,6 @@ https://kris-syntax.github.io/CSIT121work/lab03/index.html
 
 https://kris-syntax.github.io/CSIT121work/discussionboard/index.html
 
+<h3>Lab 5</h3>
+https://kris-syntax.github.io/CSIT121work/lab05/index.html
+
