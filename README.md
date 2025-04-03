@@ -18,3 +18,9 @@ https://kris-syntax.github.io/CSIT121work/discussionboard/index.html
 <h3>Lab 5</h3>
 https://kris-syntax.github.io/CSIT121work/lab05/index.html
 
+<h3>Table Template</h3>
+https://kris-syntax.github.io/CSIT121work/Table/blank-template.html
+
+<h3>Dog's Table</h3>
+https://kris-syntax.github.io/CSIT121work/Header/dog-tables.html
+
