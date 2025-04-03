@@ -24,3 +24,5 @@ https://kris-syntax.github.io/CSIT121work/Table/blank-template.html
 <h3>Dog's Table</h3>
 https://kris-syntax.github.io/CSIT121work/Header/dog-tables.html
 
+<h3>Animals Table</h3>
+https://kris-syntax.github.io/CSIT121work/Span/animals-table.html
