@@ -26,3 +26,6 @@ https://kris-syntax.github.io/CSIT121work/Header/dog-tables.html
 
 <h3>Animals Table</h3>
 https://kris-syntax.github.io/CSIT121work/Span/animals-table.html
+
+<h3>Table and Form</h3>
+https://kris-syntax.github.io/CSIT121work/tfdb/TableandFormPractice.html
