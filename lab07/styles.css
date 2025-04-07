@@ -1,0 +1,74 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:azure
+}
+
+nav{
+    font-size: x-large;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th, td {
+    padding: 20px;
+   
+  }
+
+  th{
+    background-color: palevioletred;
+  }
+
+  tr:hover {background-color: skyblue;}
+
+  caption{
+    font-size: xx-large;
+    background-color: plum;
+  }
+
+
+  input[type=text] {
+    background-color: plum;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  
+  input[type=email] {
+    background-color: plum;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  textarea{
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+ form{
+   width: 50%;
+  
+   min-width: 350px;
+   padding: 1px;
+   
+ }
+
+ fieldset{
+    background-color: pink;
+ }
+
+
