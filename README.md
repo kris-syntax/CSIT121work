@@ -29,3 +29,6 @@ https://kris-syntax.github.io/CSIT121work/Span/animals-table.html
 
 <h3>Table and Form</h3>
 https://kris-syntax.github.io/CSIT121work/tfdb/TableandFormPractice.html
+
+<h3>Lab 7</h3>
+https://kris-syntax.github.io/CSIT121work/lab07/tierlist.html
