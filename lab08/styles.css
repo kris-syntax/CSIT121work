@@ -1,0 +1,149 @@
+/* Body styling with background color and image */
+body {
+    /* Set background color */
+    background-color: ivory; /* Light gray color 
+    
+    /* Set background image */
+    background-image: url('images/gradient.jpg'); /* Replace with your image path */
+    
+    /* Set image properties */
+    background-size: cover; /* Makes sure image doesn't cover the entire page */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-position: center; /* Centers the image */
+}
+
+/* Optional: Add padding or margin to your content to make the effect visible */
+.content {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Slight transparency for content */
+    border-radius: 10px;
+}
+   
+
+h1{
+    border: 5px solid black; 
+    border-radius: 25px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    }
+
+h3{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    background-color: ivory;
+    }
+
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+}
+
+.h31{
+    background-color: ivory;
+}
+
+/* Style the navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+
+nav ul li {
+    
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    float: left;
+}
+
+
+
+
+li{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    float: none;
+    
+}
+
+
+
+.pbp1{
+    background-color: ivory;
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+.ul1 { 
+    list-style-type: none;
+    margin: 15px;
+    
+}
+
+
+
+.ul2{ 
+    list-style-type: disc;
+    margin: 1px;
+    padding: 2px;
+    padding-left: 20px;
+}
+
+.ul2 li {
+    float: none;
+    margin-right: 10px; /* Space between items */
+  } 
+
+
+p{
+    font-family: 'Inter', sans-serif;
+    background-color: ivory;
+    font-size: xx-large;
+}
+
+
+
+
+
+a{
+    color: black;
+    font-family:'Inter', sans-serif;
+    padding-inline: 25px;
+    font-size: larger;
+}
+
+
+
+
+footer{
+    font-family: 'Inter', sans-serif;
+    background-color: ivory;
+}
+
+.p3{
+    clear: both;
+}
+
+
