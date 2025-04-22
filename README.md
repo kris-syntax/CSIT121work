@@ -36,3 +36,18 @@ https://kris-syntax.github.io/CSIT121work/lab07/tierlist.html
 <h3>Form</h3>
 https://kris-syntax.github.io/CSIT121work/Form/index.html  
 
+<h3>Guessing Game</h3>
+https://kris-syntax.github.io/CSIT121work/GuessingGame/number-guessing-game-start.html
+
+
+
+
+
+
+
+
+
+
+
+
+
