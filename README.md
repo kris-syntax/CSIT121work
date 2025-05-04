@@ -43,6 +43,8 @@ https://kris-syntax.github.io/CSIT121work/GuessingGame/number-guessing-game-star
 <h3>Lab 9</h3>
 https://kris-syntax.github.io/CSIT121work/lab09/bonus.html
 
+<h3>Lab 10</h3>
+https://kris-syntax.github.io/CSIT121work/lab10/what.html
 
 
 
