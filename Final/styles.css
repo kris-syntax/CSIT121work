@@ -283,3 +283,8 @@ img { /* helps with image scaling when changing orientation*/
   display: block;
 }
 
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
