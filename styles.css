@@ -1,0 +1,285 @@
+.navbar {
+    width: 100%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.navbar a {
+    float: left;
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+    width: 20%; 
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+.navbar a:hover {  /* bg color for mouse-over */
+    background-color: pink;
+  }
+  
+body{
+    background-color: rgb(242, 243, 239);
+}
+
+header, h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    margin: 0;
+    padding: 10px 0;
+}
+
+h2{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    margin: 0;
+    padding: 10px 0;
+    padding-left: 10px;
+}
+
+.page-section{
+    display: flex;
+    gap: 0%;
+    border-bottom-style: solid;
+    border-width: 1px;   
+}
+
+.page-section h1{
+    margin: 0 0 20px;
+}
+
+.column{
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.right-column{
+    border-left: 1px solid black;
+}
+
+@media screen and (max-width: 600px){
+   .page-section {
+    display: block;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .right-column {
+    border-left: none;
+    border-top: 1px solid black;
+  }
+}
+
+.announcement-banner {
+    width: 100%;
+    overflow:  hidden;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+.announcement-banner p {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: scroll-text 60s linear infinite;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+form { /* styling for form */
+    display: inline-block;
+    padding: 1em;
+    border: 10px solid #ccc;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    width: 50%;      
+  }
+  
+  label {
+    display: inline-block;
+    min-width: 90px;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+ 
+  input:focus,textarea:focus {
+    outline-style: solid;
+    outline-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 20em;
+  }
+  
+  .button {
+    padding-left: 30px; 
+  }
+  
+  button {
+    margin-left: 0.5em;
+  }
+
+  caption{   /* styling for table */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style:italic;
+}
+
+th, td {
+    border-bottom:1px solid #ddd;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 5%;
+    padding: 10px;
+  }
+
+  th {
+    background-color: rgb(243, 184, 213);
+    color: white;
+  }
+
+.datatext{
+    padding: 40px;
+    font-size: xx-large;  
+  }
+
+  .ul-list{
+   font-size: 20px ;
+   list-style-position: inside;
+  }
+
+  table, th, td {
+    border: 1px solid;
+  }
+
+  table{
+    width: auto; /* removed 50%*/
+    border-radius: 1%;
+    box-shadow: 5px 5px;
+    margin: 20px;
+    border-collapse: collapse; 
+    table-layout: auto;  
+  }
+
+
+ .left-column{
+   flex: 0 0 50%;
+   box-sizing: border-box;
+ }
+
+ .right-column{
+  flex: 0 0 50%;
+  box-sizing: border-box;
+ }
+
+
+td{
+    background-color: aliceblue;
+}
+
+.contactme {
+  font-size: 100px;
+}
+
+footer {
+    border-top-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    text-align:center;
+    width: 100%;
+}
+
+.guessField {
+  font-size: 15px;
+  padding: 1px 5px;
+  margin: 10px;
+  width: 50px;
+}
+
+.guessSubmit{
+  font-size: 15px;
+  padding: 1px 5px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+}
+
+.p2, label{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px 5px;
+  margin: 10px; 
+}
+
+.gtitle{
+  padding: 15px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) { /* creates responsive layout so the 3 columns stack on top of each other */
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.container{
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 600px){
+  .container {
+    flex-direction: column;
+  }
+}
+.aboutme{
+  width: 50%;
+}
+
+.contact-style{
+  background-image: url('images/orchid.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  opacity: 0.5;
+  padding-right: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img { /* helps with image scaling when changing orientation*/
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
