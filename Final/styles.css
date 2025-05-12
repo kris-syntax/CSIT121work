@@ -284,7 +284,7 @@ img { /* helps with image scaling when changing orientation*/
 }
 
 a:link {
-  color: pink;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
