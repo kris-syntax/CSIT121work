@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>Web Standards</header>
+    <main>
+        <section>
+            <div class="navbar">
+                <a class="active" href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+              </div>
+        </section>
+
+        <section>
+            <h1 class="contactme">Contact Me</h1>
+        </section>
+
+       <section class="contact-style">
+        <form id="myform" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </p>
+          <p>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+          </p>
+          <p>
+            <label for="msg">Feedback:</label>
+            <textarea id="msg" name="feedback" maxlength="1600"></textarea>
+          </p>
+          <p class="button">
+            <button type="submit">Submit</button>
+          </p>  
+              
+        </form>
+    
+    </section>
+    
+    </main>
+
+    <script>
+    
+document.getElementById('myform').addEventListener('submit', function(event) {
+    event.preventDefault(); //stop the browser from submitting the form because this script is handling it. 
+
+    //gets the info from the form then puts it in a constant
+    const name = document.getElementById('name').value;
+    const email= document.getElementById('mail').value;
+    const feedback = document.getElementById('msg').value;
+
+    //put form info into a one long string
+    const data = `Name: ${name}\nEmail: ${email}\nFeedback: ${feedback}`;
+    
+    //creates and downloads a text file from the browser
+    const blob = new Blob([data], { type: 'text/plain' }); //create a blob object and put all the data in it
+    const url = URL.createObjectURL(blob); //create a temp URL to reference the blob
+    const a = document.createElement('a'); //dynamically create an anchor tag
+    a.href = url; //use the blog URL you generated for the dynamically created anchor tag
+    a.download = `form-data-from-${name}.txt`; //create the file name that will be used
+    a.click(); //simulate the clicking of the anchor tag your created 
+    URL.revokeObjectURL(url); //dump the temporary URL - it's no longer needed. 
+});
+</script>
+    
+   <footer>
+  <p>&copy; Website developed by Kristian Wallace<br>
+  <a href="mailto:wal831579@email.ccbcmd.edu">Wal831579@email.ccbcmd.edu</a></p>
+</footer>
+    
+</body>
+</html>
