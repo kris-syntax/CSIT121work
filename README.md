@@ -46,7 +46,7 @@ https://kris-syntax.github.io/CSIT121work/lab09/bonus.html
 <h3>Lab 10</h3>
 https://kris-syntax.github.io/CSIT121work/lab10/what.html
 
-<h3>Rough Draft Final Project Test</h3>
+<h3> Final Project Test</h3>
 https://kris-syntax.github.io/CSIT121work/Final/home.html
 
 
